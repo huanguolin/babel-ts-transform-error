@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "babel src/index.ts src/asyncThrottle.ts --out-file lib/index.js"
+    "build": "babel src/test.ts --out-file output/test.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.23.4",
